@@ -35,16 +35,7 @@ public class CustomProxy implements InvocationHandler {
 
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-//        if (method.getName().equals("toString")) {
-//
-//            return method.invoke(target, args);
-//        }
-        System.err.println("proxy: " + proxy);
 
-
-        Object result = method.invoke(target, args);
-
-
-        return result;
+        return method.invoke(target, args);
     }
 }

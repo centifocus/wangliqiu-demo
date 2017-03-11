@@ -2,7 +2,7 @@ package designPattern.proxy.JDK;
 
 public class MySource implements Source {
 
-    String prop;
+    private String prop;
 
     MySource(String prop){
         this.prop=prop;

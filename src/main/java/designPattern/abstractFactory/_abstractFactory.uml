@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designPattern.abstractFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="103.0">designPattern.abstractFactory.MailSender</node>
+    <node x="266.0" y="206.0">designPattern.abstractFactory.SendSmsFactory</node>
+    <node x="176.0" y="0.0">designPattern.abstractFactory.Sender</node>
+    <node x="46.0" y="206.0">designPattern.abstractFactory.SendMailFactory</node>
+    <node x="352.0" y="103.0">designPattern.abstractFactory.SmsSender</node>
+    <node x="156.0" y="103.0">designPattern.abstractFactory.Provider</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designPattern.abstractFactory.SendSmsFactory" target="designPattern.abstractFactory.Provider">
+      <point x="-44.0" y="-26.5" />
+      <point x="310.0" y="181.0" />
+      <point x="288.0" y="181.0" />
+      <point x="44.0" y="26.5" />
+    </edge>
+    <edge source="designPattern.abstractFactory.MailSender" target="designPattern.abstractFactory.Sender">
+      <point x="0.0" y="-26.5" />
+      <point x="68.0" y="78.0" />
+      <point x="210.0" y="78.0" />
+      <point x="-34.0" y="26.5" />
+    </edge>
+    <edge source="designPattern.abstractFactory.SendSmsFactory" target="designPattern.abstractFactory.SmsSender">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="designPattern.abstractFactory.SendMailFactory" target="designPattern.abstractFactory.MailSender">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="designPattern.abstractFactory.SmsSender" target="designPattern.abstractFactory.Sender">
+      <point x="0.0" y="-26.5" />
+      <point x="420.0" y="78.0" />
+      <point x="278.0" y="78.0" />
+      <point x="34.0" y="26.5" />
+    </edge>
+    <edge source="designPattern.abstractFactory.SendMailFactory" target="designPattern.abstractFactory.Provider">
+      <point x="44.0" y="-26.5" />
+      <point x="178.0" y="181.0" />
+      <point x="200.0" y="181.0" />
+      <point x="-44.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="244.0" y="181.0" />
+  <SelectedNodes>
+    <node>designPattern.abstractFactory.SendSmsFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
